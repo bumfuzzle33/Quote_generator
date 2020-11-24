@@ -9,3 +9,4 @@ function random(){
     let random_quote = quotes[Math.floor(Math.random()*quotes.length)];
     text.innerHTML = random_quote;
 }
+random();
